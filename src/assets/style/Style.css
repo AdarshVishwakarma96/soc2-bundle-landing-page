@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+:root{
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --text-color: #191C33;
+    --site-blue-color: #1426C5;
+    --site-red-color: #EA2350;
+    --primary-font: "Roboto", sans-serif;
+}
+body{margin: 0;padding: 0;}
+section{width: 100%;padding: 50px 0px 50px 0px;}
+.header-logo{width: 280px;}
+.header-logo img{width: 100%;}
+.top-header{width: 100%;background-color: #191c33;padding: 10px 0px;z-index: 999;}
+.top-header-link{}
+.top-header-link ul{display: flex;padding-left: 10px;margin: 0;}
+.top-header-link ul li{list-style: none;margin-right: 60px;}
+.top-header-link ul li a{font: normal normal 500 15px / 1.2 var(--primary-font);color: var(--white-color);text-decoration: none;border-bottom: 2px solid #191c33;}
+.top-header-link ul li a:hover{border-bottom: 2px solid var(--white-color);}
+.top-header-links ul{padding: 0;margin: 0;display: flex;}
+.top-header-links ul li{list-style: none;}
+.top-header-links ul li a{background-color: var(--white-color);color: #191c33;padding: 6px 6px 6px 9px;border-radius: 30px;width: 35px;height: 35px;display: inherit;}
+.top-header-links ul li:nth-child(2), .top-header-links ul li:nth-child(3){margin-left: 10px;}
+header{width: 100%;background-color: var(--white-color);position: sticky;top: 0;z-index: 9999;}
+.masterhead-section{}
+.masterhead-content h1{font: normal normal 900 55px / 1.2 var(--primary-font);margin-bottom: 22px;}
+.text-gradient-style{background:linear-gradient(90deg,#ea2350 1%,#1426c5 90%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-fill-color:transparent}
+.masterhead-content h2{font: normal normal 600 18px / 1.3 var(--primary-font);color: var(--text-color);margin: 0px 0px 15px 0px;}
+.masterhead-content p{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--text-color);}
+.masterhead-content button{margin: 15px 0px 0px 0px;}
+.site-button{font: normal normal 500 16px / 1.3 var(--primary-font);color: var(--white-color);background-color: var(--site-red-color);padding: 12px 24px;border: none;text-transform: capitalize;}
+.site-button:hover{background-color: var(--site-blue-color);}
+.masterhead-media{width: 100%;text-align: right;}
+.masterhead-media img{width: 90%;}
+.page-table-contents-style{position: sticky;top: 152px;background-color: var(--white-color);z-index: 999;}
+.page-table-contents-style ul{padding:0;margin:0;display: flex;justify-content: center;}
+.page-table-contents-style ul li{list-style:none;display:table-cell}
+.page-table-contents-style ul li a{font:normal normal 400 14px/1.2 Roboto,Sans-serif;color:#1426c5;background:#eef1f4;display:inline-block;padding:15px 36px;outline:0;text-decoration: none;}
+.page-table-contents-style ul li a:active,.page-table-contents-style ul li a:focus,.page-table-contents-style ul li a:hover{color:#fff;background:#3f425e}
+.site-index-ribbon-tag{font: normal normal 400 15px / 1.3 var(--primary-font);color: var(--site-red-color);border: 1px solid var(--site-red-color);background-color: var(--white-color);padding: 8px 20px;margin: 0px 0px 20px 0px;display: inline-block;}
+.site-index-ribbon-tag-white{font: normal normal 400 15px / 1.3 var(--primary-font);color: var(--white-color);border: 1px solid var(--white-color);background-color: transparent;padding: 8px 20px;margin: 0px 0px 20px 0px;display: inline-block;}
+.text-color{color: var(--text-color);}
+.text-white-color{color: var(--white-color);}
+.site-section-title{font: normal normal 900 40px / 1.2 var(--primary-font);margin: 0px 0px 20px 0px;}
+.about-soc2-box{margin-bottom: 30px;}
+.about-soc2-box p{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--text-color);margin: 0px 0px 15px 0px;}
+.about-soc2-boxes{width: 100%;padding: 30px 30px;border-radius: 30px;background: linear-gradient(180deg, #E5E8F9 0, #FFFFFF 100%);margin: 0px 0px 15px 0px;}
+.about-soc2-boxes h4{font: normal normal 500 20px / 1.5 var(--primary-font);color: var(--text-color);}
+.about-soc2-boxes p{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--text-color);margin: 0px 0px 10px 0px;}
+.about-soc2-hover-box-row{margin-bottom: 20px;}
+.about-soc2-hover-box{padding: 45px 25px;margin: 0px 0px 20px 0px;display: inline-block;width: 100%;}
+.about-soc2-hover-box:hover{background:var(--white-color);box-shadow:106px 270px 81px 0 rgba(145,145,145,0),68px 173px 74px 0 rgba(145,145,145,.01),38px 97px 63px 0 rgba(145,145,145,.05),17px 43px 46px 0 rgba(145,145,145,.09),4px 11px 26px 0 rgba(145,145,145,.1)}
+.about-soc2-hover-box-row .col-12:nth-child(1) .about-soc2-hover-box, .about-soc2-hover-box-row .col-12:nth-child(3) .about-soc2-hover-box, .about-soc2-hover-box-row .col-12:nth-child(5) .about-soc2-hover-box{background:var(--white-color);box-shadow:106px 270px 81px 0 rgba(145,145,145,0),68px 173px 74px 0 rgba(145,145,145,.01),38px 97px 63px 0 rgba(145,145,145,.05),17px 43px 46px 0 rgba(145,145,145,.09),4px 11px 26px 0 rgba(145,145,145,.1)}
+.about-soc2-hover-box h4{font: normal normal 700 22px / 1.3 var(--primary-font);color: var(--text-color);margin: 0px 0px 15px 0px;}  
+.about-soc2-hover-box p{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--text-color);margin: 0px 0px 15px 0px;min-height: 100px;}
+.about-soc2-hover-box img{width: 40px;float: right;display: block;}
+.about-soc2-hover-img{text-align: center;}
+.about-soc2-hover-img img{width: 100%;}
+.table-container{width:100%;overflow-x:auto}
+.table-container table{width:100%;border-spacing:0;border-collapse:collapse;}
+.table-container table thead tr th:nth-child(odd){background-color:var(--site-blue-color);}
+.table-container table thead tr th:nth-child(2n){background-color:var(--site-red-color);}
+.table-container table thead tr th{font:normal normal 600 16px/1.3 var(--primary-font);text-transform:uppercase;color:var(--white-color);text-align:center;padding:15px 15px;}
+.table-container table tbody tr td:nth-child(odd){background-color:#efefef}
+.table-container table tbody tr td:nth-child(2n){background-color: var(--white-color)}
+.table-container table tbody tr td{font:normal normal 400 15px/1.3 var(--primary-font);color:var(--text-color);text-align:center;padding:15px 15px;border:1px solid #c9c9c9}
+/* .table-container table tbody tr td:nth-child(2){text-align:left} */
+.strategic-title p{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--text-color);margin: 0px 0px 10px 0px;}
+.strategic-media{text-align: center;margin: 0px 0px 15px 0px;}
+.strategic-media img{width: 70%;}
+.strategic-contents{}
+.strategic-contents h4{font: normal normal 500 20px / 1.3 var(--primary-font);color: var(--white-color);margin: 0px;background-color: var(--text-color);padding: 20px 20px;text-align: center;}
+.strategic-contents ul{list-style: disc;padding: 20px 20px 20px 40px;margin: 0;background-color: #F3F3F3;}
+.strategic-contents ul li{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--text-color);margin: 0px 0px 15px 0px;}
+.strategic-contents ul li i{color: var(--text-color);}
+.approach-section{width: 100%;background: linear-gradient(0deg, #E5E8F9 0, #FFFFFF 100%);}
+.approach-boxes{padding: 35px 45px; margin: 0px 0px 20px 0px;background-image: url(https://www.accorian.com/wp-content/uploads/2024/11/Service-Assessments-Box-BG-IMG.svg);background-position: top center;background-repeat: no-repeat;background-size: cover; box-shadow:106px 270px 81px 0 rgba(145,145,145,0),68px 173px 74px 0 rgba(145,145,145,.01),38px 97px 63px 0 rgba(145,145,145,.05),17px 43px 46px 0 rgba(145,145,145,.09),4px 11px 26px 0 rgba(145,145,145,.1);min-height: 275px;}
+.approach-boxes h3{font: normal normal 600 40px / 1.3 var(--primary-font);color: var(--site-red-color);text-align: right;margin: 0px 0px 10px 0px;}
+.approach-boxes h4{font: normal normal 500 18px / 1.3 var(--primary-font);margin: 0px 0px 10px 0px;}
+.approach-boxes p{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--text-color);margin: 0px 0px 10px 0px;}
+.soc2bundlegamechanger-section{background-color: transparent;background-image: linear-gradient(180deg, #FFFFFF 0%, #EEF1F4 100%);}
+.site-soc-bundle-box p{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--text-color);}
+.site-soc-bundle-boxes{padding: 25px 25px;margin: 0px 0px 20px 0px;min-height: 185px;}
+.site-soc-bundle-boxes:hover{background:var(--white-color);box-shadow:106px 270px 81px 0 rgba(145,145,145,0),68px 173px 74px 0 rgba(145,145,145,.01),38px 97px 63px 0 rgba(145,145,145,.05),17px 43px 46px 0 rgba(145,145,145,.09),4px 11px 26px 0 rgba(145,145,145,.1)}
+.site-soc-bundle-boxes-row .col-12:nth-child(2) .site-soc-bundle-boxes, .site-soc-bundle-boxes-row .col-12:nth-child(4) .site-soc-bundle-boxes{background:var(--white-color);box-shadow:106px 270px 81px 0 rgba(145,145,145,0),68px 173px 74px 0 rgba(145,145,145,.01),38px 97px 63px 0 rgba(145,145,145,.05),17px 43px 46px 0 rgba(145,145,145,.09),4px 11px 26px 0 rgba(145,145,145,.1)}
+.site-soc-bundle-boxes h4{font: normal normal 500 18px / 1.3 var(--primary-font);color: var(--text-color);min-height: 46px;}
+.site-soc-bundle-boxes p{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--text-color);}
+.benefits-boxes-full{width: 100%;background: linear-gradient(107deg, #e5e8f9 0, #fff 100%);padding: 20px 10px;margin: 20px 0px;}
+.benefits-box-media{text-align: center;}
+.benefits-box-media img{width: 90%;}
+.benefits-box-descp h4{font: normal normal 500 18px / 1.3 var(--primary-font);color: var(--text-color);}
+.benefits-box-descp p{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--text-color);margin: 0px;}
+.stats {display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr;gap: 15px;padding: 10px; background:var(--white-color);box-shadow:106px 270px 81px 0 rgba(145,145,145,0),68px 173px 74px 0 rgba(145,145,145,.01),38px 97px 63px 0 rgba(145,145,145,.05),17px 43px 46px 0 rgba(145,145,145,.09),4px 11px 26px 0 rgba(145,145,145,.1);margin: 0px 0px 20px 0px;}
+.stat {font: normal normal 400 30px / 1.3 var(--primary-font);color: var(--site-blue-color);text-align: center;padding: 0px;margin: 0px 0px 0px 0px;}
+.statbox{border: 1px solid var(--site-blue-color);}
+.statnumber {font: normal normal 600 45px / 1.3 var(--primary-font);color: var(--site-blue-color);}
+.stat p{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--text-color);background-color: #EEEDF4;padding: 10px;min-height: 62px;margin: 0;}
+.timeline-boxes h4{font: normal normal 500 20px / 1.3 var(--primary-font);color: var(--text-color);}
+.signup-section{background-image: url(https://www.accorian.com/wp-content/uploads/2025/02/SOC-Industries-BG-IMG.svg);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.sign-up-box{margin-bottom: 20px;}
+.sign-up-boxes{margin: 0px 0px 20px 0px;}
+.sign-up-boxes img{width: 100%;}
+.signup-box{background-color: #011224;padding: 0px 0px 30px 30px;width: 100%;border-radius: 30px;}
+.signup-box img{width: 55px;float: right;position: static;margin-right: -8px;}
+.signup-box h5{font: normal normal 500 18px / 1.5 var(--primary-font);color: var(--white-color);display: inline-block;padding-right: 15px;margin-top: -25px}
+.signup-boxes{width: 100%;position: relative;}
+.signup-boxes-media{position: relative;}
+.signup-boxes-media img{width: 100%;}
+.signup-boxes-text{position: absolute;top: 35%;padding: 0px 30px;}
+.signup-boxes-text h5{font: normal normal 500 18px / 1.5 var(--primary-font);color: var(--white-color);}
+.expert-section{background-color: transparent;background-image: linear-gradient(180deg, #FFFFFF 0%, #EEF1F4 100%);}
+.expert-boxes{width: 100%;background-color: var(--white-color);border-radius: 30px;padding: 30px 30px;text-align: center;margin: 0px 0px 20px 0px;}
+.expert-boxes img{width: 150px;text-align: center;margin: 0px 0px 15px 0px;}
+.expert-boxes-descp{display: grid;grid-template-columns: 3fr 0.1fr;gap: 5px;align-items: end;text-align: left;}
+.expert-boxes-text{}
+.expert-boxes-text h4{font: normal normal 500 20px / 1.5 var(--primary-font);color: var(--text-color);}
+.expert-boxes-text p{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--text-color);}
+.expert-boxes-social{}
+.expert-boxes-social a{color: var(--white-color);background-color: var(--site-blue-color);text-decoration: none;padding: 12px;border-radius: 30px;display: inline;margin:  0px 5px 0px 0px;}
+.expert-boxes-social a i{font-size: 18px;}
+.slider-container {display: flex;align-items: center;width: 100%;position: relative;}
+.testimonial-section {width: 100%;padding: 30px;position: relative;}
+.testimonial {display: none;animation: fade 0.5s ease-in-out;}
+.testimonial.active {display: block;}
+.testimonial p {font-style: italic;line-height: 1.6;}
+.author {margin-top: 15px;font-weight: bold;}
+.arrow {position: absolute;top: 50%;transform: translateY(-50%);font-size: 30px;cursor: pointer;color: #333;font-weight: bold;user-select: none;}
+.arrow.left {left: -40px;}
+.arrow.right {right: -40px;}
+.dots {text-align: center;margin-top: 15px;}
+.dot {height: 12px;width: 12px;margin: 0 4px;display: inline-block;border-radius: 50%;background: #bbb;cursor: pointer;}
+.dot.active {background: var(--site-blue-color);}
+@keyframes fade {from {opacity: 0;} to {opacity: 1;}}
+.testimonial-boxes{display: grid; grid-template-columns: 1fr 3fr;gap: 20px;align-items: center;}
+.testimonial-boxes-media{width: 100%;text-align: center;background-color: var(--white-color);}
+.testimonial-boxes-media img{width: 100%;}
+.testimonial-boxes-media .acctesti-image-desk-img{display: block;}
+.testimonial-boxes-media .acctesti-image-mobile-img{display: none;}
+.testimonial-boxes-text{background-color: #F0EFF5;padding: 30px 20px;}
+.testimonial-boxes-text blockquote{position: relative;}
+.testimonial-boxes-text blockquote::before {content: "";display: block;width: 50px;height: 50px;margin: 0px 0px 20px 0px;background: url("https://www.accorian.in/wp-content/uploads/2025/07/Top-Quote-Icon.svg") no-repeat center/contain;}
+.testimonial-boxes-text blockquote::after{content: "";display: block;width: 50px;height: 50px;float: right;background: url("https://www.accorian.in/wp-content/uploads/2025/07/Bottom-Quote-Icon.svg") no-repeat center/contain;}
+.testimonial-boxes-text blockquote p{font: normal italic 300 16px / 1.3 var(--primary-font);color: var(--text-color);}
+.testimonial-boxes-text blockquote h6{font: normal normal 500 16px / 1.3 var(--primary-font);color: var(--text-color);}
+.download-guide-text h4{font: normal normal 900 45px / 1.3 var(--primary-font);color: var(--text-color);}
+.download-guide-form-box{}
+.download-guide-form-box img{width: 100%;}
+.download-guide-form-box .downlaod-guide-form-text{text-align: center;box-shadow: 0 5px 2px 0 hsl(0deg 0% 0% / 25%);padding: 25px 25px;background-color: var(--white-color);}
+.download-guide-form-box .downlaod-guide-form-text h5{font: normal normal 500 20px / 1.3 var(--primary-font);color: var(--text-color);margin-bottom: 15px;;}
+.download-guide-form-box .downlaod-guide-form-text button{}
+.industries-section{background-image: url(https://www.accorian.com/wp-content/uploads/2025/02/SOC-Industries-BG-IMG.svg);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.industries-icon-text-box{display: grid;grid-template-columns: 0.1fr 3fr;gap: 5px;align-items: center;margin: 0px 0px 20px 0px;width: 100%;}
+.industries-icon-img{width: 50px;}
+.industries-icon-img img{width: 100%;}
+.industries-icon-text{}
+.industries-icon-text h5{font: normal normal 500 18px / 1.3 var(--primary-font);color: var(--white-color);}
+.industries-lists{width: 100%;background-color: var(--white-color);padding: 20px 15px;border-radius: 20px;text-align: center;}
+/* .industries-lists h3{font: normal normal 900 35px / 1.3 var(--primary-font);text-align: center;margin: 0px 0px 20px 0px;text-transform: uppercase;background: linear-gradient(to right, #ea2350 45%, #1f24bf 55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;} */
+    .industries-lists h3{font: normal normal 800 30px / 1.3 var(--primary-font);text-align: center;margin: 0px 0px 20px 0px;text-transform: uppercase;display: inline-block;}
+.industries-lists ul{margin: 0;padding: 0;display: grid;grid-template-columns: repeat(3, 1fr);gap: 5px;align-items: center;}
+.industries-lists ul li{font: normal normal 500 18px / 1.3 var(--primary-font);color: var(--text-color);list-style: none;text-align: center;border-right: 1px solid var(--black-color);margin: 0px 0px 20px 0px;}
+.industries-lists ul li:nth-child(3), .industries-lists ul li:nth-child(6){border-color: var(--white-color);}
+.industries-video-box{text-align: center;}
+.industries-video-box h3{font: normal normal 900 35px / 1.3 var(--primary-font);text-align: center;color: var(--white-color);margin: 0px 0px 20px 0px;}
+.industries-video-box iframe{width: 80%;border-radius: 20px;min-height: 500px;}
+.bottom-cta-section{background-color: var(--site-red-color);}
+.bottom-site-cta-box{text-align: center;}
+.bottom-site-cta-box h2{margin: 0px 0px 20px 0px;}
+.bottom-site-cta-box p{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--white-color);margin: 0px 0px 20px 0px;}
+.bottom-site-cta-box button{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--site-red-color);background-color: var(--white-color);padding: 12px 24px;border: 1px solid var(--white-color);text-transform: capitalize;}
+.bottom-site-cta-box button:hover{background-color: var(--site-red-color);color: var(--white-color);}
+footer{width: 100%;padding: 80px 0px 30px 0px;background-color: #0A1535;}
+.footer-widget-logo{width: 100%;margin: 0px 0px 20px 0px;}
+.footer-widget-logo a{text-decoration: none;width: 240px;display: block;}
+.footer-widget-logo a img{width: 100%;}
+.footer-widget h4{font: normal normal 700 20px / 1.3 var(--primary-font);color: var(--white-color);text-transform: uppercase;margin: 0px 0px 10px 0px;min-height: 60px;}
+.footer-widget ul{padding: 0;margin: 0;}
+.footer-widget ul li{list-style: none;margin: 0px 0px 6px 0px;}
+.footer-widget ul li a{font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--white-color);text-decoration: none;padding: 8px 0px;}
+.footer-social{margin: 15px 0px;}
+.footer-social a{color: var(--white-color);background-color: var(--site-blue-color);text-decoration: none;padding: 10px;border-radius: 30px;display: inline;margin:  0px 5px 0px 0px;}
+.footer-social a i{font-size: 20px;}
+.footer-widget h5{font: normal normal 600 18px / 1.3 var(--primary-font);color: var(--white-color);margin: 0px 0px 5px 0px;}
+.footer-widget address{font: normal normal 400 16px / 1.5 var(--primary-font);color: var(--white-color);margin: 0px 0px 20px 0px;}
+.modal-backdrop {z-index: 1040 !important;}
+.modal {z-index: 9999 !important;}
+.modal-content{background-color: var(--white-color);border: 6px solid !important;border-image: linear-gradient(to right, #1F24BF 24%, #EA2350 65%) 1 !important;}
+.custom-modal-header{text-align: center;padding: 20px 5px 20px 0px;}
+.custom-modal-header h4{font: normal normal 600 25px / 1.3 var(--primary-font);color: var(--black-color);text-transform: capitalize;}
+.custom-modal-header h5{font: normal normal 600 25px / 1.3 var(--primary-font);color: var(--black-color);text-transform: uppercase;}
+.custom-modal-header button{float: right;width: 34px;border: none;background: none;top: 25px;position: absolute;right: 10px;}
+.custom-modal-header button img{width: 100%;}
+.custom-modal-body{padding: 20px 20px;}
+.siteformmodaltitle{margin: 0px 0px 20px 0p;}
+.siteformmodaltitle h2{font: normal normal 900 50px / 1.3 var(--primary-font);color: var(--white-color);}
+.siteformmodal{width: 100%;background-color: var(--black-color);background-image: url(https://www.accorian.com/wp-content/uploads/2024/10/Footer-BG-IMG.webp);background-position: 50%;background-repeat: no-repeat;background-size: cover;padding: 20px;}
+.siteformmodalbody{width: 100%;background-color: var(--white-color);padding: 25px;border: 6px solid !important;border-image: linear-gradient(to right, #1F24BF 24%, #EA2350 65%) 1 !important;}
+.siteformmodalbody h5{font: normal normal 700 40px / 1.3 var(--primary-font);color: var(--black-color);text-transform: capitalize;}
+.siteformmodal .close{float: right;border: none;background: none;width: 50px;margin-top: -15px;margin-right: -15px;}
+.siteformmodal .close img{width: 100%;}
+.site-accordion .accordion .accordion-item{padding:0 0 0 15px;position: relative;border: none;margin-bottom: 20px;background-color: #011224;}
+.site-accordion .accordion .accordion-item::before{content:"";position:absolute;top:0;left:0;width:15px;height:100%;background:linear-gradient(to bottom,#1426c5,#ea2350)}
+.site-accordion .accordion .accordion-item .accordion-header{padding-left:15px;padding-right:20px;border: none;}
+.site-accordion .accordion .accordion-item .accordion-header button{outline: none;box-shadow: none;font: normal normal 600 18px / 1.3 var(--primary-font);color: var(--white-color);background: none;}
+.site-accordion .accordion .accordion-item .accordion-header button:focus{outline: none;box-shadow: none;}
+.site-accordion .accordion .accordion-item .accordion-header button:after{content: "";display: block;width: 35px;height: 35px;padding: 11px;border-radius: 50%;background: url('https://www.accorian.com/wp-content/uploads/2025/09/FAQ-Close-Icon.svg') no-repeat center center,linear-gradient(to bottom, #1426c5, #ea2350);background-size: 22px;}
+.site-accordion .accordion .accordion-item .accordion-collapse{padding-left:10px;padding-right:10px; font: normal normal 400 16px / 1.3 var(--primary-font);color: var(--white-color);}
+#SOC2section, #SOC2Bundlesection, #Benefitssection, #Strategicsection, #Approachsection, #Industriessection, #OurExpertssection, #FAQssection{scroll-margin-top: 150px;}
+.mobile-footer-index-style{display: none;}
+.table-menu-toggle{display:none}
+.table-floating-button{position:fixed;bottom:20px;left:10px;background-color: var(--site-blue-color);border:none;border-radius:50%;width:50px;height:50px;font-size:24px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 6px rgba(0,0,0,.1);z-index:1000;text-align:center}
+.table-floating-button i{color: var(--white-color);}
+.table-menu-container{position:fixed;bottom:80px;left:10px;background:#eef1f4;border:1px solid #eef1f4;border-radius:8px;box-shadow:0 4px 6px rgba(0,0,0,.1);width:200px;padding:10px;display:none;z-index:1000}
+.table-menu-toggle:checked+.table-floating-button+.table-menu-container{display:block}
+.table-close-button{background:0 0;border:none;font-size:30px;position:absolute;top:5px;right:5px;cursor:pointer;color: var(--site-blue-color);display:inline-block;text-align:center}
+.table-menu{list-style:none;padding:0;margin:0}
+.table-menu li{display:block}
+.table-menu a{font:normal normal 400 14px/1.2 var(--primary-font);text-decoration:none;color: var(--site-blue-color);padding:8px 12px 8px 8px;background:#eef1f4;display:block}
+.table-menu a:hover{color: var(--white-color);background:#3f425e}
+/* ----- Desktop Navigation Mega Menu CSS Start ----- */
+.mobile-navigations-bar{display: none;}
+.header-navigations-bar{padding: 20px 0px;}
+.mega-menu { position: relative; z-index: 10; }
+.menu-first-level { display: flex; list-style: none; padding: 0;align-items: center; justify-content: right;}
+.menu-first-level > li { position: relative; margin-right: 16px; }
+.menu-item-has-children:hover .mega-menu-dropdown { display: flex; }
+.menu-first-level{}
+.menu-first-level li{}
+.menu-first-level li a{font: normal normal 500 16px / 1.2 var(--primary-font); color: #939393;display: inline-flex;justify-content: space-between;align-items: center;width: 100%;border-bottom: 2px solid transparent;padding: 10px 5px;text-decoration: none;}
+.menu-first-level li a span{float: right;width:11px;}
+.menu-first-level li:last-child{margin-right: 0;}
+.mega-menu-dropdown {display: none;position: absolute;background: var(--white-color);box-shadow: -5px 5px 18px 0px hsl(0deg 0% 50.98% / 25%);z-index:9;}
+.mega-menu-dropdown-cus-width-full {top: 100%;left: -535px;padding: 0px;width: 1110px;}
+.mega-menu-dropdown-cus-width-small {top: 100%;left: 0px;background: var(--white-color);padding: 0px;width: 200px;}
+.menu-columns { display: flex; width: 100%;}
+.menu-second-level{width: 30%;}
+.menu-third-level-content{width: 70%;}
+.menu-item-has-submenu a{color: #0E0D0D !important;font: normal normal 500 20px / 1.3 var(--primary-font);}
+.menu-second-level, .menu-third-level-content, .menu-content-section {padding: 0px;}
+.menu-second-level ul { list-style: none; margin: 0; padding: 10px; }
+.menu-second-level a {font: normal normal 500 18px / 1.3 var(--primary-font); text-decoration: none; color: var(--text-color); display: block; padding: 8px 10px; background: #F1F1F1;}
+.menu-second-level a:hover{background: var(--site-blue-color);color: var(--white-color) !important;}
+.menu-second-level{background-color: #F1F1F1;border-right: 5px solid;border-image: linear-gradient(to bottom, var(--site-red-color), var(--site-blue-color));border-image-slice: 1;}	
+.menu-third-level-content ul{margin: 0;padding: 10px;width: 100%;display: grid
+;grid-template-columns: repeat(2, 1fr);gap: 0;}
+.menu-third-level-content ul li{list-style: none;margin-bottom: 10px;}
+.menu-third-level-content ul li a{border: 2px solid;border-image: linear-gradient(to right, var(--white-color) 24%, var(--white-color) 65%) 1;padding: 5px 10px;cursor: pointer;background: #1426C5;-webkit-background-clip: text;background-clip: text;color: transparent;display: block;font: normal normal 500 16px / 1.3 var(--primary-font);}
+.menu-third-level-content ul li a:hover{border: 2px solid;border-image: linear-gradient(to right, var(--site-blue-color) 24%, var(--site-red-color) 65%) 1;background: linear-gradient(to right, #1F24BF 24%, #EA2350 65%);-webkit-background-clip: text;background-clip: text;color: transparent;}
+.menu-second-levels{width: 100%;}
+.menu-second-levels ul{margin: 0;padding: 10px;}
+.menu-second-levels ul li{list-style: none;margin-bottom: 10px;}
+.menu-second-levels ul li a{border: 2px solid;border-image: linear-gradient(to right, var(--white-color) 24%, var(--white-color) 65%) 1;padding: 5px 10px;cursor: pointer;background: #1426C5;-webkit-background-clip: text;background-clip: text;color: transparent;display: block;font: normal normal 500 16px / 1.3 var(--primary-font);}
+.menu-second-levels ul li a:hover{border: 2px solid;border-image: linear-gradient(to right, var(--site-blue-color) 24%, var(--site-red-color) 65%) 1;background: linear-gradient(to right, #1F24BF 24%, #EA2350 65%);-webkit-background-clip: text;background-clip: text;color: transparent;}	
+/* Hidden Content Initialization */
+.menu-third-level-content, .blog-content {display: none;}
+.menu-content-section{background-color:#F1F1F1;padding:10px;}
+.blog-content{}
+.blog-content img{width: 100%;}
+.blog-content h4{font: normal normal 500 16px / 1.3 var(--primary-font) !important;color: var(--text-color) !important;margin:0px 0px 10px 0px;}
+.blog-content p{font: normal normal 400 15px / 1.3 var(--primary-font) !important;color: var(--text-color) !important;}
+.blog-content a{font: normal normal 500 15px / 1.3 var(--primary-font) !important;color: var(--site-blue-color) !important;display: block !important;}	
+.blog-content a span{width: 20px !important;}
+.blog-content a span img{width: 100%;}
+/* Active States */
+.menu-third-level-content.active, .blog-content.active {display: block;}
+.cus-contact-menu{background: var(--site-blue-color); color: var(--white-color) !important;padding: 10px 25px !important;}
+.cus-contact-menu:hover{background: var(--site-red-color);border-bottom: 2px solid var(--site-red-color) !important;}
+.mega-menu ul.menu-first-level > li.current-menu-item > a, .mega-menu ul.menu-first-level > li.current-menu-ancestor > a, .mega-menu ul.menu-first-level > li > a:hover {color: var(--site-blue-color);border-bottom: 2px solid var(--site-blue-color);}
+/* ----- Desktop Navigation Mega Menu CSS End ----- */
+/* ----- Mobile Navigation Mega Menu CSS Start ----- */
+.mobile-navbar {display: flex;justify-content: space-between;align-items: center;background-color: var(--white-color);color:var(--white-color); margin: 0px 0px 10px 0px;}
+.mobile-logo {font-size: 20px;font-weight: bold;width: 250px;padding-left: 10px;}
+.mobile-logo img{width: 100%;}
+.mobile-hamburger {cursor: pointer;}
+.mobile-hamburger i {color: var(--site-blue-color);font-size: 40px;}
+.mobile-menu {display: none;flex-direction: column;background-color: var(--white-color);width: 100%;padding: 0;}
+.mobile-menu a {color: var(--text-color);font: normal normal 500 14px / 1.3 var(--primary-font); text-transform: uppercase; padding: 12px 16px;text-decoration: none;display: block;position: relative;}
+.mobile-menu a:hover {background-color: var(--site-blue-color);color: var(--white-color);}
+.mobile-submenu {display: none;flex-direction: column;background-color: var(--white-color);}
+.mobile-menu li {list-style: none;position: relative;}
+.mobile-menu li.mobile-open > .mobile-submenu {display: flex;padding: 0px;}
+.mobile-menu li.mobile-has-submenu > a::after {content: "\F282";color: var(--text-color); font-family: "bootstrap-icons";position: absolute;right: 16px;font-size: 18px;}
+.mobile-menu li.mobile-open > a::after {content: "\F286"; /* dash-lg */font-family: "bootstrap-icons";}
+/* ----- Mobile Navigation Mega Menu CSS End ----- */
+@media only screen and (max-width:992px){
+    .site-soc-bundle-boxes, .site-soc-bundle-boxes h4{min-height: auto;}
+    .stats {grid-template-columns: 2fr 2fr 2fr;gap: 15px;}
+    .arrow.left{left: -20px;}
+    .arrow.right{right: -20px;}
+    .arrow img{width: 30px;}
+    .footer-widget{margin: 0px 0px 30px 0px;}
+    .desktop-navigations-bar{display: none !important;}
+    .mobile-navigations-bar{display: block;}
+    .stats{padding: 15px;}
+    .approach-boxes{min-height: auto;}
+    .strategic-media img{width: 100%;}
+    .industries-lists ul{grid-template-columns:repeat(2, 1fr);}
+    .industries-lists ul li:nth-child(2), .industries-lists ul li:nth-child(4){border-color: var(--white-color);}
+    .industries-lists ul li:nth-child(3){border-color: var(--text-color);}
+    .page-table-contents-style{display: none;}
+    .mobile-footer-index-style{display: block;}
+    .about-soc2-hover-box p{min-height: auto;}
+    .top-header-link{display: none;}
+}
+@media only screen and (max-width:768px){
+    .stats {grid-template-columns: 3fr 3fr;}
+    .statnumber{font-size: 35px;} .stat{font-size: 25px;}
+    .testimonial-boxes{grid-template-columns: 1fr;}
+    .testimonial-boxes-media .acctesti-image-desk-img{display: none !important;}
+    .testimonial-boxes-media .acctesti-image-mobile-img{display: block;}
+    .arrow.left{left: -10px;}
+    .arrow.right{right: -10px;}
+    .footer-widget h4{min-height: auto;}
+    .benefits-box-media{margin-bottom: 10px;}
+    .benefits-box-media img{width: 50px;}
+    .benefits-box-descp{text-align: center;}
+    .industries-lists ul{grid-template-columns:repeat(1, 1fr);}
+    .industries-lists ul li{border-color: var(--white-color);}
+    .site-section-title, .download-guide-text h4{font-size: 35px;}
+    .industries-lists h3, .industries-video-box h3{font-size: 30px;}
+    .download-guide-text h4{margin-bottom: 20px;}
+    .industries-lists ul li{margin: 0px 0px 10px 0px;}
+    .industries-video-box iframe{width: 90%;height: 200px;min-height: auto;}
+    .industries-lists ul li:nth-child(3){border-color: var(--white-color);}
+    .about-soc2-boxes{padding: 25px;}
+    .about-soc2-boxes h4{font-size: 18px;}
+    .about-soc2-hover-box{padding: 30px 25px;}
+    .masterhead-content{margin-bottom: 20px;}
+    .masterhead-media{text-align: center;}
+    .masterhead-media img{width: 100%;}
+    .masterhead-content h1{font-size: 40px;}
+}
